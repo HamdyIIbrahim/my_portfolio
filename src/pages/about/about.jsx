@@ -4,6 +4,9 @@ import Stats from "../../components/Stats";
 import {FaDownload} from "react-icons/fa";
 import CV from "../../assets/HamdyIbrahim_Fullstackwebdeveloper.pdf";
 import './about.css';
+import Skills from "../../components/Skills";
+import { resume } from "../../data";
+import ResumeItem from "../../components/ResumeItem";
 const About = () => {
   return (
     <main className="section container">
@@ -23,6 +26,39 @@ const About = () => {
           </div>
           <div className="stats grid">
             <Stats />
+          </div>
+        </div>
+      </section>
+      <div className="separator">
+      </div>
+      <section className="skills">
+        <h3 className="section_subtitle subtitle_center">
+          My Skills
+        </h3>
+        <div className="skills_container grid">
+          <Skills />
+        </div>
+      </section>
+      <div className="separator">
+      </div>
+      <section className="resume">
+        <h3 className="section_subtitle subtitle_center">
+          Experience & Education
+        </h3>
+        <div className="resume_container grid">
+          <div className="resume_data">
+            {resume.map((val)=>{
+              if(val?.category === 'experience'){
+                return <ResumeItem key={val.id} {...val}/>
+              }
+            })}
+          </div>
+          <div className="resume_data">
+            {resume.map((val)=>{
+              if(val?.category === 'education'){
+                return <ResumeItem key={val.id} {...val}/>
+              }
+            })}
           </div>
         </div>
       </section>

@@ -122,26 +122,26 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: '12+',
+    no: '1+',
     title: 'Years of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '97+',
+    no: '22+',
     title: 'Completed <br /> Projects',
   },
 
   {
     id: 3,
-    no: '81+',
+    no: '30+',
     title: 'Happy <br /> Customers',
   },
 
   {
     id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
+    no: '3.5',
+    title: '<br/> CGPA',
   },
 ];
 
@@ -150,54 +150,73 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: '2023 - PRESENT',
+    title: 'Full Stack Web Developer <span> GeekyAir </span>',
+    // eslint-disable-next-line no-multi-str
+    desc: 'Front-end development: Helped in developing the front-end using React.js and the back-end using Node.js also created a \
+    dashboard for the admins to control all the cases and creating new companies, leading to a 76% increase in usage\
+    Back-end development: Built an email server project for a client using Node.js in Upwork and I got excellent feedback.\
+    Sea Table Scripting: Developed and implemented the version 3.0.0 of Seatle Zapier CLI',
   },
+  // {
+  //   Frontend_development:
+  //     "Helped in developing the front-end using React.js and the back-end using Node.js also created a dashboard for the admins to control all the cases and creating new companies, leading to a 76% increase in usage",
+  //   Backend_development:
+  //     " Built an email server project for a client using Node.js in Upwork and I got excellent feedback.",
+  //   SeaTable_Scripting:
+  //     "Developed and implemented the version 3.0.0 of Seatle Zapier CLI",
+  // }
+  // {
+  //   id: 2,
+  //   category: 'experience',
+  //   icon: <FaBriefcase />,
+  //   year: '2013 - 2018',
+  //   title: 'UI/UX Designer <span> Themeforest </span>',
+  //   desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+  // },
 
-  {
-    id: 2,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-  },
-
-  {
-    id: 3,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
-  },
+  // {
+  //   id: 3,
+  //   category: 'experience',
+  //   icon: <FaBriefcase />,
+  //   year: '2005 - 2013',
+  //   title: 'Consultant <span> Videohive </span>',
+  //   desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+  // },
 
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    year: '2020 - 2023',
+    title: 'Bachelor Degree <span> Faculty of Science </span>',
+    desc: 'Bachelor Degree of Computer Science department special degree at Faculty of Science Alexandria University with CGPA : 3.5',
   },
 
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: '2022',
+    title: 'JavaScript Algorithms and Data Structures Certificate <span>  free code camp </span>',
+    desc: ' JavaScript Algorithms and Data Structures Certificate free code camp Developer Certification, representing approximately 300 hours of coursework',
   },
 
   {
     id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    year: '2022',
+    title: 'JavaScript Mahara-tech Certificate',
+    desc: ' iti-platform certification of 7 hours course Developer Certification, representing approximately 7 hours of coursework',
+  },
+  {
+    id: 7,
+    category: 'education',
+    icon: <FaGraduationCap />,
+    year: '2022',
+    title: ' React Development Cross-Skilling <span>  Udacity </span>',
+    desc: '  React.js Certification from Udacity',
   },
 ];
 
@@ -222,31 +241,46 @@ export const skills = [
 
   {
     id: 4,
-    title: 'Php',
+    title: 'CSS3',
     percentage: '66',
   },
 
   {
     id: 5,
-    title: 'Wordpress',
+    title: 'ES6',
     percentage: '95',
   },
 
   {
     id: 6,
-    title: 'Jquery',
+    title: 'Ajax',
     percentage: '50',
   },
 
   {
     id: 7,
-    title: 'Angular',
+    title: 'Tailwind',
     percentage: '65',
   },
 
   {
     id: 8,
     title: 'React',
+    percentage: '45',
+  },
+  {
+    id: 9,
+    title: 'Node',
+    percentage: '45',
+  },
+  {
+    id: 10,
+    title: 'Express',
+    percentage: '45',
+  },
+  {
+    id: 11,
+    title: 'MongoDB',
     percentage: '45',
   },
 ];
