@@ -9,6 +9,7 @@
 }
 .show-menu {
   left: 0;
+  z-index: 1000;
 }
 .nav_link {
   display: flex;
@@ -28,6 +29,7 @@
 .active-nav .nav_icon,
 .active-nav .nav_name {
   color: var(--first-color);
+  
 }
 .nav_toggle {
   position: fixed;
@@ -38,6 +40,7 @@
   border-radius: 5px;
   background-color: var(--container-color);
   padding: 12px 10px;
+  z-index: 1001;
 }
 .nav_toggle span {
   display: block;
