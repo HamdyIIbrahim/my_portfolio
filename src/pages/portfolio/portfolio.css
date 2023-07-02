@@ -51,6 +51,7 @@
     padding: 32px;
     border-radius:10px;
     position: relative;
+    height: 85vh;
 }
 .modal_close{
     position: absolute;
@@ -88,6 +89,6 @@
 }
 .modal_img{
     width: 100%;
-    height: 350px;
+    height: 400px;
     object-fit: cover;
 }
