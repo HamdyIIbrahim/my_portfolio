@@ -10,7 +10,7 @@ const PortfolioItem = ({img,title,details}) => {
         <img src={img} alt="" className='portfolio_img' />
         <div className="portfolio_hover" onClick={toggleModal}>
             <h3 className="portfolio_title">{title}</h3>
-        </div>
+        </div>  
         {modal && (
             <div className="portfolio_modal">
             <div className="portfolio_modal-content">

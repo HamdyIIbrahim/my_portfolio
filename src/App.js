@@ -4,6 +4,7 @@ import "./App.css"
 import Home from "./pages/home/home"
 import About from "./pages/about/about"
 import Portfolio from "./pages/portfolio/portfolio"
+// import Portfolioo from "./pages/portfolio/portfolioo"
 import Contact from "./pages/contact/contact"
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="contact" element={<Contact />} />
+        {/* <Route path="portfolioo" element={<Portfolioo />} /> */}
       </Routes>
     </BrowserRouter>
   );
