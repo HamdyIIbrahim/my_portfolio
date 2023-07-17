@@ -8,7 +8,7 @@ const Contact = () => {
       <h2 className="section_title">
         Get In<span>Touch</span>
       </h2>
-      <div className="contact_container container grid">
+      <div className="contact_container container">
         <div className="contact_data">
           <h3 className="contact_title">Don't be Shy !</h3>
           <p className="contact_description">
@@ -33,43 +33,45 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <form className="contact_form">
-          <div className="form_input-group">
-            <div className="form_input-div">
-              <input
-                type="text"
-                placeholder="Your Name"
-                className="form_control"
-              />
+        <div className="glass">
+          <form className="contact_form">
+            <div className="form_input-group">
+              <div className="form_input-div">
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  className="form_control"
+                />
+              </div>
+              <div className="form_input-div">
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  className="form_control"
+                />
+              </div>
+              <div className="form_input-div">
+                <input
+                  type="text"
+                  placeholder="Your Subject"
+                  className="form_control"
+                />
+              </div>
+              <div className="form_input-div">
+                <textarea
+                  placeholder="Your Message"
+                  className="form_control textarea"
+                ></textarea>
+              </div>
+              <button className="button">
+                Send Message{" "}
+                <span className="button_item contact_button-icon">
+                  <FiSend />
+                </span>
+              </button>
             </div>
-            <div className="form_input-div">
-              <input
-                type="email"
-                placeholder="Your Email"
-                className="form_control"
-              />
-            </div>
-            <div className="form_input-div">
-              <input
-                type="text"
-                placeholder="Your Subject"
-                className="form_control"
-              />
-            </div>
-            <div className="form_input-div">
-              <textarea
-                placeholder="Your Message"
-                className="form_control textarea"
-              ></textarea>
-            </div>
-            <button className="button">
-              Send Message{" "}
-              <span className="button_item contact_button-icon">
-                <FiSend />
-              </span>
-            </button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </section>
   );

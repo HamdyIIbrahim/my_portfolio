@@ -1,5 +1,8 @@
-.contact_conatiner{
-    grid-template-columns: 4fr 8fr;
+.contact_container.container{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
 
 }
 .conatct_title{
@@ -88,5 +91,16 @@
 
 .contact_button-icon{
     font-size: var(--h3-font-size);
-    line-height: 64px;
+    line-height: 60px;
+    text-align: center;
+}
+.form_input-group button{
+    text-align: center;
+}
+.glass{
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter:blur(10px);
+    border-radius:20px;
+    padding:30px;
+    width: 70%;
 }
