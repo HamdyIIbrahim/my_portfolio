@@ -9,6 +9,7 @@ import { resume } from "../../data";
 import ResumeItem from "../../components/ResumeItem";
 const About = () => {
   return (
+    <div className="aboutContainer">
     <main className="section container">
       <section className="about">
         <h2 className="section_title">
@@ -63,6 +64,7 @@ const About = () => {
         </div>
       </section>
     </main>
+    </div>
   );
 };
 
